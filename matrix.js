@@ -49,7 +49,7 @@ module.exports = class Matrix {
 
         var result = new Matrix(rows, cols, [])
 
-        for (let i = 0; i < row; i++)
+        for (let i = 0; i < rows; i++)
         {
             result.matrix[i] = [];
             for (let j = 0; j < cols; j++)
